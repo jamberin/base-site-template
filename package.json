@@ -1,7 +1,7 @@
 {
-    "title": "Creative",
-    "name": "startbootstrap-creative",
-    "version": "7.0.6",
+    "title": "Template",
+    "name": "base-site-template",
+    "version": "0.0.1",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
         "build:assets": "node scripts/build-assets.js",
@@ -12,31 +12,13 @@
         "start": "npm run build && node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
-    "description": "Creative is a stylish one page HTML theme built with Bootstrap.",
-    "keywords": [
-        "css",
-        "sass",
-        "scss",
-        "html",
-        "pug",
-        "responsive",
-        "theme",
-        "template"
-    ],
-    "homepage": "https://startbootstrap.com/theme/creative",
-    "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-creative/issues",
-        "email": "feedback@startbootstrap.com"
-    },
+    "description": "Simple web template for .",
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
-        "David Miller (https://davidmiller.io/)"
+        "David Miller (https://davidmiller.io/)",
+        "James Beringer"
     ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-creative.git"
-    },
     "dependencies": {
         "bootstrap": "5.1.3"
     },
